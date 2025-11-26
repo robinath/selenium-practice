@@ -1,0 +1,49 @@
+/* ------------------------hover effect--------------------------*/
+.linkdiv{
+  background-color: azure;
+  a:link{
+    color: rgb(66, 189, 39);
+    text-decoration: none;
+  }
+  a:hover{
+    font-weight: bold;
+    /* text-decoration: dotted; */
+    color: darkgreen;
+  }
+  img:hover{
+    transform: scale(1.3);
+  }
+  a:visited{
+    color: rgb(255, 0, 17);
+  }
+
+}
+/* ------------------------Table styling----------------------------- */
+table{
+font-weight: normal;
+width: 100%;
+text-align: center;
+border-style: outset;
+font-size: medium;
+border-collapse: collapse;
+border-color: rgb(8, 62, 77);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+/* border-radius: 10px; */
+}
+.table-header{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: rgb(5, 107, 113);
+
+}
+td, th{
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  border-style: outset;
+}
+td{
+  background-color: aqua;
+}
+.first-row{
+  width: 300px;
+}
+/* ------------------------------------------------------------------ */

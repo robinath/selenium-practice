@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UnDer PLate</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="icon" type="image/svg" href="../src/assets/img/roast-chicken-svgrepo-com.svg">
+</head>
+    <body >
+        <div class="maindiv">
+            <div title="Header name" style="background-color: azure;">
+                <h1>This is my Header</h1>
+                <hr>
+            </div>
+            <div title="This is my photo" style="background-color: azure;">
+                <img src="../src/assets/img/photo.jpeg" alt="photo" style="width: 100px; height: 110px;">
+                <hr>
+            </div> 
+            <div title="This is loren ipsum paragraph" style="background-color: azure;">
+                <p style="font-size: 1rem;">There are many variations of passages of <b>Lorem Ipsum</b> available, but the majority have suffered alteration in some form, <strong>by injected humour</strong>, or randomised words which don't look even slightly believable.<br> If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated <del>Lorem Ipsum </del>is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+                <hr>
+            </div> 
+            <div class="image_section">
+                <img style="width: 100%; height: 100%;" src="../src/assets/img/1346719.jpeg" alt="One piece crew members" usemap="#straw_hat_crew">
+                <map name="#straw_hat_crew">
+                    <area shape="rect" coords="200, 200 , 700 , 400 " href=" https://onepiece.fandom.com/wiki/Jinbe" alt="Jinbe">
+                </map>
+            </div>
+            <hr>
+            <div>
+                <p id="de1"></p>
+                <script>
+                    function javaScript(){
+                        document.getElementById("de1").innerHTML="hello";
+                    }
+                    
+                </script>
+            </div>
+            <hr>
+            <div class="Table-content">
+                <table>
+                    <tr class="table-header">
+                    <th>Row 1</th>
+                    <th>Row 2</th>
+                    <th>Row 3</th> 
+                    </tr>
+                   <tr class="first-row" style="width: 300px;">
+                    <td>A1</td>
+                    <td>A2</td>
+                    <td>A3</td>
+                   </tr>
+                   <tr class="second-row">
+                    <td>B1</td>
+                    <td>B2</td>
+                    <td>B3</td>
+                   </tr>
+                </table>
+            </div>
+            <hr>
+            <div class="linkdiv">
+                <a class="" title="Zomato Link" href="https://www.zomato.com/">You can Order Food Here</a>
+                <a class="" title="mailto" href="robinnath0525@gmail.com">Gmail</a>
+                <a class="" title="Swiggy" href="https://www.swiggy.com/">
+                    <img style="height: 15px; width: 15px;" src="../src/assets/img/rice-svgrepo-com.svg" alt="rice-svgrepo-com">
+                </a>
+            </div>
+            <hr>
+             <div>
+               <button class="buttonstyle" type="button" onclick="javaScript()">
+                click on Me
+               </button> <br>
+               <button class="timebutton" type="button" onclick="document.getElementById('demo').innerHTML= Date()">
+                To show time click me
+               </button>
+               <p id="demo">
+               </p>
+            </div>
+            <hr>
+        </div>
+    </body>
+</html>
